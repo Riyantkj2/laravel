@@ -125,15 +125,18 @@ Sehingga isi full file route web.php nya akan seperti berikut.
 | contains the "web" middleware group. Now create something great!
 |
 */
- 
+</pre>
+ <pre>
 Route::get('/', function () {
 	return view('welcome');
 });
- 
+ </pre>
+ <pre>
 Route::get('halo', function () {
 	return "Halo, Selamat datang di tutorial laravel www.malasngoding.com";
 });
- 
+ </pre>
+ <pre>
 Route::get('blog', function () {
 	return view('blog');
 });
